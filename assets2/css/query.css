@@ -1,0 +1,969 @@
+@media (max-width: 800px) {
+  body {
+    overflow-x: visible;
+    box-sizing: border-box;
+  }
+
+  .section2,
+  .section {
+    padding: 7rem 4rem;
+  }
+
+  .section3 {
+    padding: 3rem 4rem;
+  }
+
+  .section,
+  .section4 {
+    padding: 10rem 4rem;
+  }
+
+  .logo {
+    height: 7.8rem;
+    width: 11.7rem;
+  }
+
+  .header-contact-info {
+    padding: 2.5rem 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+
+  .header-contact-div {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .close-btn {
+    display: block;
+    position: absolute;
+    right: 4rem;
+    top: 4rem;
+    font-size: 5rem;
+    color: #fff;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.95);
+    top: 0;
+    height: 100%;
+    right: -110%;
+    width: 80%;
+    border-radius: 0.7rem 0 0 0.7rem;
+    z-index: 2000;
+    transition: all 0.4s linear;
+    overflow: hidden;
+  }
+
+  .nav.sticky {
+    background-color: rgba(0, 0, 0, 0.95);
+  }
+
+  .nav.active {
+    display: flex;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    row-gap: 5rem;
+    padding-top: 5rem;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  li .nav-link {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .nav2 {
+    display: none;
+  }
+
+  .burger-icon {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #000;
+  }
+
+  /* //hero section */
+
+  .hero-slider {
+    height: 45vh;
+  }
+
+  .content {
+    left: 4rem;
+    width: 85%;
+  }
+
+  .write-up {
+    padding: 2rem 6rem;
+  }
+  /* 
+  .about-us-info {
+    font-size: 1.65rem;
+    font-weight: 450;
+  } */
+
+  .content h1 {
+    padding-top: 10rem;
+  }
+
+  .content p {
+    font-size: 1.6rem;
+  }
+
+  .welcome .h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+
+  .welcome .pp1,
+  .heading .pp1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #5e5d5d;
+  }
+
+  .servs {
+    width: 47%;
+  }
+
+  /* three points */
+
+  .three-points {
+    flex-direction: column;
+    padding: 3rem 4rem;
+  }
+
+  .point1 {
+    padding: 2rem;
+  }
+
+  .point1 :nth-child(1) {
+    font-size: 6rem;
+  }
+
+  .point1 :nth-child(2) {
+    font-size: 2.5rem;
+  }
+
+  .point1 :nth-child(3) {
+    font-size: 1.9rem;
+  }
+  /* Services section */
+  .services {
+    flex-direction: column;
+    row-gap: 5rem;
+  }
+
+  .scam-section {
+    row-gap: 5.5rem;
+    width: 100%;
+  }
+
+  .servs {
+    width: 100%;
+  }
+
+  .servs img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+  }
+
+  .servs-name p:nth-child(1) {
+    font-size: 2.7rem;
+  }
+
+  .servs p:nth-child(2) {
+    font-size: 2rem;
+    color: #363636;
+  }
+
+  /* service2 */
+  .service2 {
+    flex-direction: column;
+    row-gap: 5rem;
+  }
+
+  .service i {
+    font-size: 4.6rem;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .title2 {
+    font-size: 2rem;
+  }
+
+  /* testimonial */
+  .testimonials {
+    padding: 3rem 4rem;
+  }
+
+  .testimonial {
+    padding: 5rem 1rem;
+    width: 100%;
+  }
+
+  .testimonial .test-p1 {
+    font-size: 1.75rem;
+  }
+
+  .stat h2 {
+    font-size: 3.2rem;
+  }
+
+  .stat p {
+    font-size: 1.3rem;
+  }
+
+  /* footer */
+
+  .footer-wrap {
+    row-gap: 6rem;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footer-div {
+    width: 100%;
+  }
+
+  .footer-div2 {
+    padding-left: 0;
+  }
+
+  .write-up-footer {
+    font-size: 4rem;
+  }
+
+  .footer-about {
+    width: 100%;
+    font-size: 2.3rem;
+    line-height: 27px;
+  }
+
+  .call .links a,
+  .call-info {
+    font-size: 2.4rem;
+  }
+
+  .footer-link,
+  .loca2,
+  .loca2 a {
+    font-size: 2.2rem;
+  }
+
+  .copyright {
+    font-size: 2.2rem;
+  }
+
+  /* otherpages hero styling */
+  .content22 {
+    padding-top: 10rem;
+  }
+
+  .about-section {
+    padding: 6rem 1rem;
+  }
+
+  .about-us-content {
+    flex-direction: column-reverse;
+    row-gap: 10rem;
+  }
+
+  .image-div img {
+    height: 100%;
+    width: 100%;
+    transform: translateX(0) translateY(0);
+  }
+
+  .image-div {
+    padding: 0.5rem;
+    border: none;
+  }
+
+  /* contact page */
+  .locatn {
+    font-size: 2.4rem;
+  }
+
+  .locatn2 {
+    font-size: 2rem;
+  }
+
+  .info-last,
+  .info-last a {
+    font-size: 2rem;
+    color: #000;
+  }
+
+  /* mission section */
+  .mission-content {
+    padding: 1rem 0;
+    border: none;
+  }
+
+  .our-work-cover {
+    flex-direction: column;
+    row-gap: 4.5rem;
+  }
+
+  .gas-about,
+  .general-p,
+  .general-p2 {
+    font-size: 2rem;
+    font-weight: 380;
+  }
+
+  .facility-content,
+  .facility-content2 {
+    flex-direction: column;
+    row-gap: 7rem;
+  }
+
+  .facili {
+    width: 100%;
+  }
+
+  .facili img {
+    height: 35rem;
+    border-radius: 0.7rem;
+  }
+
+  .mission,
+  .vision-p,
+  .value {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 4rem;
+  }
+
+  .p11 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .p22 {
+    font-size: 2.4rem;
+  }
+
+  .faci1,
+  .faci3 {
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+
+  .facillis-img,
+  .other-content2 {
+    flex: 1;
+    width: 100%;
+  }
+
+  .faci2,
+  .faci4 {
+    flex-direction: column-reverse;
+  }
+
+  .serv-overlay {
+    flex-direction: column-reverse;
+    padding: 7rem 4rem;
+    row-gap: 5rem;
+  }
+
+  .image-cont,
+  .serv-overlay-cont {
+    width: 100%;
+  }
+
+  .serv-overlay-cont h3 {
+    font-size: 2.5rem;
+    font-weight: 650;
+  }
+
+  .serv-overlay-cont h2 {
+    font-size: 3.9rem;
+  }
+
+  .serv-overlay-cont p {
+    font-size: 1.95rem;
+    font-weight: 500;
+    width: 80%;
+  }
+
+  .other-content {
+    text-align: left;
+    padding: 1.5rem 1rem;
+  }
+
+  .location-content-container {
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+
+  .calls {
+    padding: 4rem 1rem;
+  }
+
+  .process li::marker {
+    font-size: 2.6rem;
+  }
+
+  .writeup-2-0 {
+    padding: 2rem 1rem;
+  }
+
+  .list-item li {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .list-item li::marker {
+    font-size: 3rem;
+  }
+
+  .reach-us-section {
+    flex-direction: column;
+    row-gap: 6rem;
+  }
+
+  .reach-info,
+  .reach-form {
+    flex: 1;
+    width: 100%;
+  }
+
+  /* explore page querry */
+  .contact-servises-content {
+    padding: 5rem 4rem;
+    flex-direction: column;
+    row-gap: 6rem;
+  }
+  /* explore page querry ends*/
+  .reach-info h3,
+  .add {
+    font-size: 3.7rem;
+  }
+
+  .p22-2-3,
+  .loca3 {
+    font-size: 1.9rem;
+  }
+
+  .emails2 {
+    row-gap: 1.4rem;
+  }
+
+  .loca3 a {
+    font-size: 2.1rem;
+  }
+
+  .btn-submit {
+    padding: 2rem 3rem;
+    font-size: 2rem;
+  }
+
+  .services-btn {
+    width: 30%;
+  }
+
+  button {
+    padding: 2rem;
+  }
+
+  button a {
+    font-size: 2.1rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 450px) {
+  /* .header,
+  .hero-section,
+  .nav {
+    overflow-x: hidden;
+  } */
+  .section,
+  .section4 {
+    padding: 8rem 1.58rem;
+  }
+
+  .section2 {
+    padding: 5rem 1.58rem;
+  }
+
+  .section3 {
+    padding: 6rem 1.58rem;
+  }
+
+  .logo {
+    height: 5rem;
+    width: 7.9rem;
+  }
+
+  /* .burger {
+    display: block;
+  } */
+
+  .burger-icon {
+    font-size: 4.6rem;
+    font-weight: 600;
+    color: #000;
+    padding: 0;
+  }
+
+  .close-btn {
+    font-size: 3rem;
+  }
+
+  .nav-links {
+    row-gap: 5rem;
+    padding: 2rem 0rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  li .nav-link {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .header-contact-info {
+    padding: 1.5rem 1.3rem;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  /* hero */
+  .hero-slider {
+    height: 70vh;
+  }
+
+  .services-infooo {
+    padding: 1rem 2rem;
+  }
+
+  .content {
+    left: 2.5rem;
+    width: 95%;
+  }
+
+  .content h1 {
+    padding-top: 8rem;
+    font-size: 3.3rem;
+  }
+
+  .content22 h3 {
+    font-size: 3rem;
+  }
+
+  .header-btn {
+    width: 45%;
+  }
+
+  .write-up {
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  .write-up-p1 {
+    font-size: 4.5rem;
+    text-align: left;
+  }
+
+  /* welcome */
+  .welcome h2 {
+    font-size: 2.7rem;
+  }
+
+  .gas-about {
+    font-size: 2.2rem;
+  }
+
+  /* three points */
+
+  .three-points {
+    padding: 3rem 0;
+    border-radius: 0.2rem;
+  }
+
+  .point1 {
+    padding: 1rem 1.8rem;
+  }
+
+  .services-heading {
+    font-size: 3.7rem;
+    text-align: center;
+  }
+
+  .home-services-sec {
+    row-gap: 5rem;
+  }
+
+  .servs {
+    width: 100%;
+  }
+
+  .servs img {
+    width: 100%;
+    height: 21rem;
+  }
+
+  .testimonials h2 {
+    font-size: 3rem;
+  }
+
+  .ttu {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .testimonials {
+    padding: 4rem 2rem;
+  }
+
+  .testimonial {
+    border-radius: 0.6rem;
+    padding: 5rem 1.7rem;
+  }
+
+  .testimonial .test-p1 {
+    width: 100%;
+    line-height: 24px;
+  }
+
+  .user-locale {
+    width: 100%;
+    column-gap: 1rem;
+  }
+
+  .user-locale img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .clients-name {
+    font-size: 1.37rem;
+    text-align: left;
+  }
+
+  /* about us page */
+  .about-us-info {
+    height: 68rem;
+  }
+
+  .stats {
+    height: 68rem;
+  }
+
+  .heading-about-part {
+    display: none;
+  }
+
+  .here {
+    font-size: 2.2rem;
+    margin-top: 1.5rem;
+  }
+
+  .envelop-cover {
+    padding: 10rem 2.3rem;
+  }
+
+  .stats-cover {
+    flex-direction: column;
+    row-gap: 2.4rem;
+    padding: 5rem 0rem;
+  }
+
+  .stat {
+    width: 95%;
+    padding: 2rem 0;
+  }
+
+  /* about page */
+  .about-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .sec2 {
+    padding: 1.5rem;
+  }
+
+  .about-us-info {
+    padding: 0;
+  }
+
+  .gas-about {
+    text-align: left;
+    padding: 0;
+  }
+
+  .about-us-content {
+    padding: 0;
+    row-gap: 4rem;
+  }
+
+  .image-div {
+    padding: 0;
+    border: none;
+  }
+
+  /* contact us */
+
+  .container {
+    padding: 3rem 2rem;
+  }
+
+  .container p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 1rem 1.5rem;
+  }
+
+  .footer-overlay {
+    padding: 8rem 2.3rem;
+  }
+
+  /* contact page query */
+
+  .contact-us-about-page-cover {
+    row-gap: 1.6rem;
+  }
+  .contact-us-about-page-overlay {
+    padding: 6rem 1.8rem;
+  }
+
+  .contact-us-about-page-cover h3 {
+    font-size: 2rem;
+  }
+
+  .contact-us-about-page-cover h2 {
+    font-size: 2.7rem;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .contact-us-about-page-cover p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-us-about-page-cover button {
+    padding: 1.7rem 5rem;
+    margin-top: 1.6rem;
+  }
+
+  .p11,
+  .p11-1 {
+    font-size: 2.5rem;
+  }
+
+  .p22,
+  .p22-2 {
+    font-size: 1.9rem;
+  }
+
+  .other-content {
+    padding: 1.5rem 0;
+    text-align: left;
+  }
+
+  .facili img {
+    width: 100%;
+    height: 19.5rem;
+  }
+
+  .mission-content {
+    padding: 1rem;
+  }
+
+  .who,
+  .whatt,
+  .give {
+    width: 100%;
+    padding: 4.4rem 1rem;
+    border-radius: 0.6rem;
+  }
+
+  .who h3,
+  .whatt h3,
+  .give h3 {
+    font-size: 3rem;
+  }
+
+  .ttlk {
+    font-size: 1.8rem;
+    font-weight: 450;
+    line-height: 27px;
+  }
+
+  .ttlk2 a {
+    font-size: 1.9rem;
+  }
+
+  .mission,
+  .vision-p,
+  .value {
+    grid-template-columns: 1fr;
+    padding: 4rem 0rem;
+  }
+
+  .vision-p {
+    padding-left: 0.6rem;
+  }
+
+  .unk-div h3 {
+    font-size: 1.7rem;
+  }
+
+  .unk-div h2 {
+    font-size: 2.1rem;
+  }
+
+  .facillis-img img {
+    height: 15rem;
+  }
+
+  .other-content2 {
+    color: #1e1e1e;
+    padding: 0rem 0rem 2rem 1rem;
+  }
+
+  .write-up-p1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .sustain-1-section img {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .serv-overlay {
+    padding: 7rem 2.3rem;
+  }
+
+  .serv-overlay-cont h3 {
+    font-size: 1.9rem;
+  }
+
+  .serv-overlay-cont h2 {
+    font-size: 2.6rem;
+    line-height: 31px;
+  }
+
+  .serv-overlay-cont p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  /* //sustainabilty page query */
+  .sustain-inoo {
+    font-size: 4rem;
+  }
+
+  .suss-s {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .mob {
+    font-size: 1.4rem;
+    font-weight: 450;
+  }
+
+  /* //contact-page-query */
+  .reach-info {
+    padding: 2rem 1.5rem;
+  }
+
+  .reach-info h3 {
+    font-size: 2.6rem;
+  }
+
+  .p22-2-3 {
+    font-size: 1.56rem;
+    font-weight: 450;
+    width: 100%;
+    line-height: 23px;
+  }
+
+  .loca3 a {
+    font-size: 1.65rem;
+    font-weight: 480;
+  }
+
+  .contact-form {
+    row-gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .contact-form input {
+    padding: 1.5rem;
+  }
+
+  .contact-form input::placeholder {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .reach-info h3,
+  .add {
+    font-size: 3rem;
+  }
+
+  /* contsct us  */
+
+  .contact-servises-content {
+    padding: 5rem 1.5rem;
+    flex-direction: column;
+    row-gap: 6rem;
+  }
+
+  .services-btn {
+    width: 50%;
+  }
+
+  .image-rep img {
+    height: 25rem;
+  }
+
+  .loca2,
+  .loca2 a {
+    font-size: 2rem;
+  }
+
+  .calls {
+    padding: 4rem 1.4rem;
+  }
+}
